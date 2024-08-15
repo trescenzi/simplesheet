@@ -317,6 +317,11 @@ cha: 'Charisma',
     padding: 36px;
     font-size: 1.5rem;
   }
+  @media(max-width: 650px) {
+    content {
+      grid-template-columns: 1fr;
+    }
+  }
 
   i {
     vertical-align: middle;
